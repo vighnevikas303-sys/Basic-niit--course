@@ -161,3 +161,52 @@ while(n>0)
     n=Math.floor(n/10);
 }
 console.log("reverse of 1234 is:"+reverse);
+
+
+//fibonacci series
+let a=0;
+let b=1;
+let next=0;
+
+for(let i=0;i<=10;i++)
+{
+    console.log(a);
+    next=a+b;
+    a=b;
+    b=next;
+}
+let sum=0;
+let n=5;
+for(let i=0;i<=n*2;i+=2 )
+{
+    sum+=i;
+}
+console.log("sum of first 10 numsber is:"+sum);
+
+let sumodd=0;
+for(let i=1;i<=n*2;i+=2 )
+{
+    sumodd+=i;
+}
+console.log("sum of first 10 numoddnumber is:"+sumodd);
+
+
+let x=1243;
+for(let i=2;i<=1000;i++)
+{
+    if(x%i==0)
+    {
+        if(i==x)
+        {
+            continue;
+        }
+        console.log(x+"--is not a prime")
+        break;
+    }
+    else
+    {
+        console.log(x+"--is a prime number");
+        
+    }
+
+}
