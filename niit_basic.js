@@ -30,7 +30,7 @@ let y=square(c);
 console.log(y);
 
  
-const greet=function(name){ // fkunction expression
+const greet=function(name){ // expression function
     console.log("hello",name);;
 }
 
