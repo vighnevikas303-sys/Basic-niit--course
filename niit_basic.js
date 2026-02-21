@@ -2,7 +2,7 @@
 const prompt=require("prompt-sync")();
 // console.log("this is only for authorization please enter your name:")
 let age=prompt("enter your age:");
-console.log("hello   "+a);
+// console.log("hello   "+a);
 
 var b=undefined;
 var b=3;
@@ -95,7 +95,7 @@ const multiply=(a,b)=>//arrow function
 
  function jobready(age)
  {
-    if(age>=18 && age>=60)
+    if(age>=18 && age<=60)
     {
         console.log("your eligible for job")
     }
