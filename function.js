@@ -23,6 +23,24 @@ const multiply=(a,b)=>//arrow function
     }
     welcome();
     welcome("bob");
+
+
+
+    function greet(name,callback) //callback function
+ {
+    console.log("hello",name);
+    callback();
+ }
+
+ function  saybye(){
+    console.log("good night!");//in last call greet passing parameters alice and second one is the fnc pass the callback ;
+ }
+ greet("alice",saybye)
+
+
+ setTimeout(function() {
+  console.log("Hello"); //anonyms function
+}, 1000);              //Functions without a name
     
 
  function login(username,password)
@@ -45,17 +63,6 @@ const multiply=(a,b)=>//arrow function
 //  some task take time like 
 //  we want to perform a task after tasks completely   document file->open
 
-
- function greet(name,callback)
- {
-    console.log("hello",name);
-    callback();
- }
-
- function  saybye(){
-    console.log("good night!");//in last call greet passing parameters alice and second one is the fnc pass the callback ;
- }
- greet("alice",saybye)
 
  function orderfood(item,callback)
  {
