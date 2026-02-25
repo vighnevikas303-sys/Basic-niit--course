@@ -1,15 +1,33 @@
 let num=[1,10,7,3];
-num.sort((a, b) => a - b);//a-b sort numeric ascending 
-                         //b-a sort numeric descending
-num.push(4); //add at end
-num.pop(); //remove at end
-num.unshift(2); //add at start
-num.shift();  //remove at start
-num.map();
-num.filter();
+console.log("original array:["+num+"]")
 
-for(let i=0;i<num.length;i++)
-{
-    console.log(num[i]);
-}
+num.sort((a, b) => a - b);//a-b sort numeric ascending 
+console.log("sorting of arr:",num)      //b-a sort numeric descending
+
+num.push(4); //add at end
+console.log("if push at end:",num)
+
+num.pop(); //remove at end
+console.log("if pop at end:["+num+"]")
+
+num.unshift(2); //add at start
+console.log("if add at start:["+num+"]")
+
+num.shift();  //remove at start
+console.log("delete from start:["+num+"]")
+// num.filter();
+
+ num.reverse();
+ console.log("reverse the array: ["+num+"]")
+
+ num.map(num=>num*num);
+ console.log("using map double is: ["+num+"]")
+
+ num.slice()
+ console.log("using slice:["+num+"]")
+ num.splice()
+  console.log("using splice:["+num+"]")
+ 
+  let x=num.indexOf(10);
+   console.log("index of number 10 is :"+x)
 
