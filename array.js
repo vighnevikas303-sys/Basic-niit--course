@@ -25,9 +25,12 @@ console.log("delete from start:["+num+"]")
 
  num.slice()
  console.log("using slice:["+num+"]")
+
  num.splice()
   console.log("using splice:["+num+"]")
  
   let x=num.indexOf(10);
    console.log("index of number 10 is :"+x)
+
+   
 
