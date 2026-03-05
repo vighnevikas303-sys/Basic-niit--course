@@ -54,3 +54,8 @@ for (let i = 0; i <= password.length; i++) {
 
 }
 
+function mark(a,b,c,d,e)
+{
+   console.log()
+}
+
