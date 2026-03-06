@@ -16,7 +16,7 @@ student.name="anuj";
 console.log(student.name);
 
 class college{
-    college(student,teacher,classes){
+    college(student,teacher,classes){//used for large amount of data 
       
         this.student=student;
         this.teacher=teacher;
